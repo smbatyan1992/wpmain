@@ -1,0 +1,245 @@
+/*
+THEME NAME: DigiTheme
+AUTHOR: Digilite Web Solutions
+VERSION: 4.0
+*/
+
+/*FONTS*/
+
+/*DEFAULT CSS*/
+* {
+	outline: none !important;
+	text-decoration: none !important;
+}
+
+body {
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.2;
+	position: relative;
+	font-family: "Lato", sans-serif;
+}
+
+a,
+a:hover,
+a:focus {
+	color: #244A57;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.transition {
+	transition: .5s;
+}
+
+.relative-parent {
+	position: relative;
+}
+
+.absolute-bottom {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+.absolute {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 20;
+}
+
+.alpha {
+	padding-left: 0;
+}
+
+.omega {
+	padding-right: 0;
+}
+
+.page-404 {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.alignnone {
+	margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+	display: block;
+	margin: 0 auto;
+}
+
+.alignright {
+	float: right;
+	margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a img.alignright {
+	float: right;
+	margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+	margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption {
+	max-width: 100%;
+	text-align: center;
+}
+
+.wp-caption.alignnone {
+	margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+	margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+	margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+	border: 0 none;
+	height: auto;
+	margin: 0;
+	max-width: 98.5%;
+	padding: 0;
+	width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0;
+    padding: 6px 0px 5px;
+    text-align: left;
+}
+
+.cover {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/* .row {
+	margin-left: -12px;
+	margin-right: -12px;
+}
+
+.container,
+[class*="col-"] {
+	padding-left: 12px;
+	padding-right: 12px;
+} */
+
+/*Typography*/
+h1, .head-1 {
+	font-size: 56px;
+}
+
+h2, .head-2 {
+font-size: 48px;
+}
+
+h3, .head-3 {
+font-size: 32px;
+}
+
+h4, .head-4 {
+font-size: 20px;
+}
+
+h5, .head-5 {
+font-size: 18px;
+}
+
+h6, .head-6 {
+font-size: 16px;
+}
+
+/*MAIN CSS*/
+.header-items {
+	justify-content: space-between;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1230px) {
+	.container { width: 1200px; }
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (max-width: 991px) {
+    .respon-reverse {
+        flex-direction: column-reverse !important;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) { 
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 544px) {
+
+}
+
+@media (max-width: 480px) {
+
+}
